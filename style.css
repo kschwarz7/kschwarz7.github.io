@@ -23,3 +23,16 @@ video {
   height: auto;
   max-width: 100%;
 }
+body {
+  background: #3e3e7b;
+  color: #a7f8a7;
+}
+p {
+  color: #a7f8a7;
+}
+a{
+  color: orange;
+}
+.juice {
+  color: #c896ff; 
+}
