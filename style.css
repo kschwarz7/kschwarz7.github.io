@@ -18,7 +18,8 @@ h1 {
   text-align: center;
 }
 
-nav,main{
+nav,
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
