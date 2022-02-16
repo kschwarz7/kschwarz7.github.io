@@ -1,6 +1,6 @@
 Body {
   margin: 1rem;
-  font-family: sans-serif;
+  font-family: fantasy;
   line-height: 1.5;
   background: #3e3e7b;
   color: #a7f8a7;
@@ -24,4 +24,3 @@ main {
   flex-direction: column;
   align-items: center;
 }
-<ispan> 
