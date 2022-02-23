@@ -10,6 +10,7 @@ p {
 }
 a {
   color: orange;
+  padding: 10px;
 }
 .juice {
   color: #c896ff;
