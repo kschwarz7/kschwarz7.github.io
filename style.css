@@ -1,8 +1,14 @@
+/* variables */
+:root {
+  --bluepurple: #3e3e7b;
+  --display-font-stack: "Caveat", cursive;
+}
+
 Body {
   margin: 1rem;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Caveat", cursive;
   line-height: 1.5;
-  background: #3e3e7b;
+  background: var(--bluepurple);
   color: #a7f8a7;
 }
 nav,
@@ -10,7 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Indie Flower", cursive;
 }
 
 p {
