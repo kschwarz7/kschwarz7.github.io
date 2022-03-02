@@ -33,7 +33,7 @@ a {
   background: #a7f8a7;
   margin: 20px;
   border-radius: 20px;
-  transition: all .25;
+  transition: all 0.25s ease;
 }
 .juice {
   color: #c896ff;
@@ -49,6 +49,7 @@ h1 {
 a: focus {
   outline: 6px var(--bluepurple) dashed;
 }
-a: hover {
+a: hover, a: focus{
   background: var(--bluepurple);
+  color: red;
 }
