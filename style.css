@@ -19,7 +19,7 @@ main {
   align-items: center;
   font-family: "Indie Flower", cursive;
   font-size: 20px;
-  margin
+  margin: 20px;
 }
 
 p {
@@ -30,9 +30,10 @@ a {
   padding: 10px;
   text-decoration: none;
   font-size: 20px;
-  background: #3e3e7b;
+  background: #a7f8a7;
   margin: 20px;
   border-radius: 20px;
+  transition: all .25;
 }
 .juice {
   color: #c896ff;
@@ -44,4 +45,10 @@ h1 {
 .flex {
   display: flex;
   align-items: center;
+}
+a: focus {
+  outline: 6px var(--bluepurple) dashed;
+}
+a: hover {
+  background: var(--bluepurple);
 }
