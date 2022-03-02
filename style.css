@@ -10,7 +10,7 @@ Body {
   line-height: 1.5;
   background-image: url("https://cdn.glitch.global/deacb68a-fef9-4e53-9323-758931c06d06/photo-1518531933037-91b2f5f229cc.jpg?v=1645578630999");
   color: #a7f8a7;
-  font-size: 15px
+  font-size: 15px;
 }
 nav,
 main {
@@ -18,7 +18,8 @@ main {
   flex-direction: column;
   align-items: center;
   font-family: "Indie Flower", cursive;
-  font-size: 20px
+  font-size: 20px;
+  margin
 }
 
 p {
@@ -26,7 +27,12 @@ p {
 }
 a {
   color: orange;
-  padding: 10px; 
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  background: #3e3e7b;
+  margin: 20px;
+  border-radius: 20px;
 }
 .juice {
   color: #c896ff;
@@ -35,8 +41,7 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
-
