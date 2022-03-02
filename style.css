@@ -46,6 +46,9 @@ h1 {
   display: flex;
   align-items: center;
 }
+img {
+  border-radius: 20px;
+}
 a: focus {
   outline: 6px var(--bluepurple) dashed;
 }
